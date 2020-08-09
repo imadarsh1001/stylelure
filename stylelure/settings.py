@@ -102,7 +102,7 @@ AUTHENTICATION_BACKENDS = (
 )
 
 WSGI_APPLICATION = 'stylelure.wsgi.application'
-
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 LOGIN_REDIRECT_URL = 'index'
@@ -193,4 +193,3 @@ MEDIAFILES_DIRS = [
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

@@ -1,1 +1,1 @@
-web: waitress-serve --port=80 stylelure.wsgi:application
+web: waitress-serve stylelure.wsgi:application
