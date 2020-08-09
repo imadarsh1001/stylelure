@@ -54,7 +54,7 @@ INSTALLED_APPS = [
     'social_django',
     'colorfield',
     'paypal.standard.ipn',
-   
+    'whitenoise'
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
