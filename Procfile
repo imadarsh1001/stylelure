@@ -1,1 +1,1 @@
-web: waitress-serve stylelure.wsgi:application
+web: gunicorn stylelure.wsgi
