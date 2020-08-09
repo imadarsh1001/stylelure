@@ -340,9 +340,9 @@
     </footer>
   </div>
 
-
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+{% block jquery %}
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
 <script type="text/javascript" src="{% static "js/slick.min.js" %}"></script>
 <script type="text/javascript" src="{% static "js/jquery-ui.min.js" %}"></script>
@@ -353,5 +353,6 @@
 <script src="{% static "js/bootstrap.min.js" %}"></script>
     <!-- Custom JavaScript -->
 <script src="{% static "js/custom.js" %}"></script>
+{% endblock %}
 </body>
 </html>
