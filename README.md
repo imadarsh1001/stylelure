@@ -5,7 +5,7 @@ Stylelure is a virtual store on the Internet where customers can browse the cata
 [![Python Version](https://img.shields.io/badge/python-3.6-brightgreen.svg)](https://python.org)
 [![Django Version](https://img.shields.io/badge/django-1.11-brightgreen.svg)](https://djangoproject.com)
 
-
+Note: You can also check out deployed [web app](http://styleure.herokuapp.com/) of this project!
 
 
 # Abstract
